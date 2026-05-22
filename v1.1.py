@@ -11,7 +11,6 @@ class Platformer:
         self.canvas = tk.Canvas(self.window, width=self.width, height=self.height, bg='lightblue')
         self.canvas.pack()
         
-        # === ПАРАМЕТРЫ ИГРОКА ===
         self.player_size = 30
         self.player_x = 100
         self.player_y = 300
@@ -130,7 +129,6 @@ class Platformer:
                                fill='black', font=('Arial', 12), tags="info")
     
     def game_loop(self):
-        """Главный игровой цикл"""
         self.handle_input()
         self.check_platform_collision()
         self.update_player()
