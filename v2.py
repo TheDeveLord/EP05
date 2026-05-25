@@ -4,7 +4,7 @@ from random import randint
 class Platformer:
     def __init__(self):
         self.window = tk.Tk()
-        self.window.title("2D-Платформер")
+        self.window.title("2D платформер")
         self.window.resizable(False, False)
         
         self.width = 800
