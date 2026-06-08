@@ -37,4 +37,4 @@
 
 <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/552623f5-7262-4ed3-9fd2-e72ec6c105a6" />
 
-Игра
+Окно игры
