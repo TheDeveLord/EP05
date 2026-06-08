@@ -57,7 +57,7 @@ class Platformer:
         if self.difficulty == "hard":
             self.platforms.extend([
                 (300, 150, 80, 20),
-                (600, 300, 80, 20),
+                (600, 275, 80, 20),
             ])
         
         self.enemies = [
@@ -105,9 +105,9 @@ class Platformer:
             self.gravity = 0.8
         else:
             self.player_speed = 4
-            self.jump_power = 14
+            self.jump_power = 13
             self.lives = 1
-            self.gravity = 0.9
+            self.gravity = 0.8
     
     def start_game(self):
         self.set_difficulty(self.difficulty)
@@ -376,7 +376,9 @@ class Platformer:
         self.canvas.create_text(70, 45, text=f"Жизни: {self.lives}", font=('Arial', 16), fill='red')
         self.canvas.create_text(70, 70, text=f"Монеты: {collected}/{self.total_coins}", 
                                font=('Arial', 14), fill='gold')
-        self.canvas.create_text(70, 95, text=f"Сложность: {diff_text}", 
+        if self.difficulty == "normal": self.canvas.create_text(100, 95, text=f"Сложность: {diff_text}", 
+                               font=('Arial', 12), fill='purple')
+        else: self.canvas.create_text(80, 95, text=f"Сложность: {diff_text}", 
                                font=('Arial', 12), fill='purple')
         self.canvas.create_text(400, 20, text="← → движение | Пробел/↑ прыжок | Esc меню", 
                                fill='black', font=('Arial', 12))
