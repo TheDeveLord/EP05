@@ -28,10 +28,13 @@
 
 # 🖼️ Скриншоты
 <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/0cce9c91-65fd-4610-886d-4b74d9addba7" />
+
 Главное меню
 
 <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/ec2fb39d-ba35-4f71-b1c0-44e70e7e8d4b" />
+
 Меню настроей
 
 <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/552623f5-7262-4ed3-9fd2-e72ec6c105a6" />
+
 Игра
